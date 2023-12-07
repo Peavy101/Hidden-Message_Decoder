@@ -2,6 +2,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
 .decoder {
@@ -17,6 +19,41 @@ form {
     justify-content: center;
     align-items: center;
 }
+
+button {
+    margin: 5px;
+}
+
 textarea {
     resize: none;
+    height: 15vh;
+    width: 30vh;
+    min-height: 60px;
+    min-width: 170px;
+}
+
+.codedText {
+    width: 35%;
+    height: 25vh;
+    min-height: 125px;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.decodedText {
+    width: 35%;
+    height: 25vh;
+    min-height: 125px;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.decoder > div {
+    margin: 20px;
 }
