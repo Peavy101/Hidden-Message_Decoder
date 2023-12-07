@@ -1,0 +1,22 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decoder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+textarea {
+    resize: none;
+}
