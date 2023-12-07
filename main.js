@@ -21,5 +21,4 @@ function getCapitalLetters(text) {
     return result;
 }
 
-
-//sample phrases: Here Is a Mystery On a Message
+//sample phrases to try: Here Is a Mystery On a Message, when are yoU going to Stop Using shoelaCes in Karate class
